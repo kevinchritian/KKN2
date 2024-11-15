@@ -6,6 +6,15 @@ import base64
 import io
 
 
+hide_streamlit_style = """
+<style>
+    #root > div:nth-child(1) > div > div > div > div > section > div {padding-top: 0rem; padding-left:0rem; padding-right:0rem; padding-bottom:0rem;}
+</style>
+"""
+
+# Memasukkan CSS custom ke dalam aplikasi
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
 st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout='wide')
 
