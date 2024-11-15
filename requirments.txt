@@ -1,0 +1,6 @@
+streamlit==1.39.0
+pillow
+pybase64
+Python-IO
+tensorflow
+requests
